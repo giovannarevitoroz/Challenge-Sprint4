@@ -1,0 +1,208 @@
+
+@media screen and (min-width: 320px) and (max-width: 740px){
+    .containermaior {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        padding: 2rem;
+        background: linear-gradient(to bottom, #18B7E4, #000000);
+        border-radius: 0.625rem;
+        width: 90vw;
+        max-width: 31.25rem;
+        box-shadow: 0px 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+        font-family: "Red Hat Display", sans-serif;
+        margin-top: 10vw;
+    }
+    .title {
+        font-size: 2rem;
+        margin-bottom: 1.25rem;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+    }
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .label {
+        font-size: 0.875rem;
+        color: #ffffff;
+        margin-bottom: 0.25rem;
+        width: 84%;
+        font-weight: bold;
+        margin-left: 10%;
+        margin-bottom: 2vw;
+    }
+    .input {
+        width: 80%;
+        padding: 0.625rem;
+        border: 1px solid #ddd;
+        border-radius: 0.3125rem;
+        font-size: 1rem;
+        background-color: #fff;
+        transition: border-color 0.3s;
+        margin-left: 10%;
+        height: 3vw;
+    }
+    .input:focus {
+        border-color: #18B7E4;
+        outline: none;
+    }   
+    .botaoSalvar,
+    .botaoExcluir {
+        margin-top: 1rem;
+        padding: 0.625rem 0.9375rem;
+        border: none;
+        border-radius: 0.3125rem;
+        font-size: 1rem;
+        cursor: pointer;
+        color: #fff;
+        transition: background-color 0.3s;
+        text-align: center;
+    }
+    .botaoSalvar {
+        background-color: #006581;
+        width: 85%;
+        margin-left: 4%;
+        height: 6vw;
+        margin-bottom: 1vw;
+        font-weight: bold;
+        font-size: 3vw;
+    }
+    .botaoSalvar:hover {
+        background-color: #18B7E4;
+    }
+    .botaoExcluir {
+        background-color: #006581;
+        width: 85%;
+        height: 6vw;
+        margin-left: 4%;
+        font-weight: bold;
+        font-size: 2.5vw;
+    }
+    .botaoExcluir:hover {
+        background-color: #18B7E4;
+    }
+    .escapamento{
+        height: 0.3vw;
+        width: 84%;
+        margin-left: 4%;
+        background-color: #fff;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+}
+
+
+@media (min-width: 741px){
+    .containermaior {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        padding: 2rem;
+        background: linear-gradient(to bottom, #18B7E4, #000000);
+        border-radius: 0.625rem;
+        width: 90vw;
+        max-width: 31.25rem;
+        box-shadow: 0px 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+        font-family: "Red Hat Display", sans-serif;
+        margin-top: 20vw;
+    }
+    .title {
+        font-size: 2rem;
+        margin-bottom: 1.25rem;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+    }
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .label {
+        font-size: 0.875rem;
+        color: #ffffff;
+        margin-bottom: 0.25rem;
+        width: 84%;
+        font-weight: bold;
+        margin-left: 10%;
+        margin-bottom: 2vw;
+    }
+    .input {
+        width: 80%;
+        padding: 0.625rem;
+        border: 1px solid #ddd;
+        border-radius: 0.3125rem;
+        font-size: 1rem;
+        background-color: #fff;
+        transition: border-color 0.3s;
+        margin-left: 10%;
+        height: 3vw;
+    }
+    .input:focus {
+        border-color: #18B7E4;
+        outline: none;
+    }
+    
+    .botaoSalvar,
+    .botaoExcluir {
+        margin-top: 1rem;
+        padding: 0.625rem 0.9375rem;
+        border: none;
+        border-radius: 0.3125rem;
+        font-size: 1rem;
+        cursor: pointer;
+        color: #fff;
+        transition: background-color 0.3s;
+        text-align: center;
+    }
+    .botaoSalvar {
+        background-color: #006581;
+        width: 85%;
+        margin-left: 4%;
+        height: 5vw;
+        font-weight: bold;
+        margin-bottom: 1vw;
+    }
+    .botaoSalvar:hover {
+        background-color: #18B7E4;
+    }
+    .botaoExcluir {
+        background-color: #006581;
+        width: 85%;
+        margin-left: 4%;
+        height: 5vw;
+        font-weight: bold
+    }
+    .botaoExcluir:hover {
+        background-color: #18B7E4;
+    }
+    .escapamento{
+        height: 0.3vw;
+        width: 84%;
+        margin-left: 4%;
+        background-color: #fff;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+}

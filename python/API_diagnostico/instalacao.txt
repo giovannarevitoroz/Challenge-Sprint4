@@ -1,0 +1,21 @@
+Membros:
+
+Giovanna Revito Roz - RM558981
+Kaian Gustavo de Oliveira Nascimento - RM558986
+Lucas Kenji Kikuchi - RM554424s
+
+Instalação API
+
+pip install pycaret --> python inferior ao python 3.12
+pip install git+https://github.com/pycaret/pycaret.git@master --> caso seja python 3.12+
+pip install flask
+pip install flask-cors
+pip install numpy
+pip install pandas
+
+A pasta deve conter o arquivo api.py e o modelo nb_pipeline.pkl
+
+python api.py --> rodar aplicação (VSCode)
+
+
+

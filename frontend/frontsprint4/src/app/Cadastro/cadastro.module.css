@@ -1,0 +1,212 @@
+
+@media screen and (min-width: 320px) and (max-width: 740px){
+    .titulo{
+        font-size: 6vw;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        text-align: center;
+        margin-top: 20vw;
+        margin-bottom: 10vw;
+        color: #fff;
+    } 
+    .container{
+        background: linear-gradient(to bottom, #18B7E4, #000000);
+        margin-top: -2.5vw;
+    }
+    .formulario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3vw;
+    }
+    .formulario input{
+        height: 8vw;
+        width: 60%;
+        border-radius: 1.5vw;
+        border-style: none;
+        text-align: center;
+    }
+    .formulario input::placeholder{
+        text-align: center;
+        color: rgb(42, 42, 42);
+        font-size: 3vw;
+    }
+    .divisor{
+        height: 1vw;
+        width: 60%;
+        margin-left: 20%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        border-radius: 1vw;
+    }
+    .botao{
+        width: 60%;
+        height: 8vw;
+        background-color: #006581;
+        color: #fff;
+        border-style: none;
+        border-radius: 1.5vw;
+        margin-left: 20%;
+        font-size: 3vw;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: center;
+    }
+    .botao:hover{
+        cursor: pointer;
+        background-color: #18B7E4;
+    }
+    .desistirbotao:hover{
+        cursor: pointer;
+        background-color: #18B7E4;
+    }
+    .desistirbotao{
+        background-color: #006581;
+        margin-top: 4vw;
+        width: 60%;
+        margin-left: 20%;
+        height: 8vw;
+        border-radius: 1.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .voltabotao{
+        text-decoration: none;
+        color: #fff;
+        font-size: 3vw;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    .qualquer{
+        height: 10vw;
+    }
+    .inputError {
+        border: 1px solid red;
+        color: red;
+        text-align: center;
+    }
+    .modelo {
+        text-align: center;
+    }
+    .espacadorfinal{
+        height: 30vw;
+    }
+}
+
+@media (min-width: 741px){
+    .titulo{
+        font-size: 5vw;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        text-align: center;
+        margin-top: 15vw;
+        margin-bottom: 10vw;
+        color: #fff;
+    } 
+    .container{
+        background: linear-gradient(to bottom, #18B7E4, #000000);
+        margin-top: -2.5vw;
+    }
+    .formulario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3vw;
+    }
+    .formulario input{
+        height: 5vw;
+        width: 50%;
+        border-radius: 1vw;
+        border-style: none;
+        text-align: center;
+    }
+    .formulario input::placeholder{
+        text-align: center;
+        color: rgb(42, 42, 42);
+        font-size: 2vw;
+    }
+    .divisor{
+        height: 1vw;
+        width: 30%;
+        margin-left: 20%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        border-radius: 1vw;
+    }
+    .botao{
+        width: 50%;
+        height: 5vw;
+        background-color: #006581;
+        color: #fff;
+        border-style: none;
+        border-radius: 1vw;
+        margin-left: 25%;
+        font-size: 3vw;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: center;
+    }
+    .botao:hover{
+        cursor: pointer;
+        background-color: #18B7E4;
+    }
+    .desistirbotao:hover{
+        cursor: pointer;
+        background-color: #18B7E4;
+    }
+    .desistirbotao{
+        background-color: #006581;
+        margin-top: 4vw;
+        width: 50%;
+        margin-left: 25%;
+        height: 5vw;
+        border-radius: 1vw;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .voltabotao{
+        text-decoration: none;
+        color: #fff;
+        font-size: 2vw;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    .qualquer{
+        height: 10vw;
+    }
+    .inputError {
+        border: 1px solid red;
+        color: red;
+        text-align: center;
+    }
+    .modelo {
+        text-align: center;
+    }
+    .espacadorfinal{
+        height: 30vw;
+    }
+    .divisor{
+        height: 1vw;
+        width: 50%;
+        margin-left: 25%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        border-radius: 1vw;
+    }
+    
+}

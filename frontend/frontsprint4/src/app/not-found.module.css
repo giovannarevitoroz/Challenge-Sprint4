@@ -1,0 +1,41 @@
+/* not-found.module.css */
+
+.notFoundContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  .errorCode {
+    font-size: 8rem;
+    font-weight: bold;
+    color: #3498db;
+    margin: 0;
+  }
+  
+  .message {
+    font-size: 1.5rem;
+    margin: 10px 0 20px;
+  }
+  
+  .homeButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .homeButton:hover {
+    background-color: #2980b9;
+  }
+  

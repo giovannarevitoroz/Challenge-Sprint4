@@ -1,0 +1,39 @@
+Membros:
+
+Giovanna Revito Roz - RM558981
+Kaian Gustavo de Oliveira Nascimento - RM558986
+Lucas Kenji Kikuchi - RM554424
+
+pip install pycaret --> python inferior ao python 3.12
+pip install git+https://github.com/pycaret/pycaret.git@master --> caso seja python 3.12+
+pip install flask
+pip install flask-cors
+pip install numpy
+pip install pandas
+
+python api.py --> inicia aplicação (VSCode)
+
+JSON para testar em Postman:
+
+{
+    "temperatura_alta": 1,
+    "sons_estranhos": 1,
+    "luz_painel": 0,
+    "alto_consumo_combustivel": 1,
+    "dificuldade_partida": 1,
+    "carro_vibrando": 0,
+    "problemas_freio": 1,
+    "problemas_direcao": 0,
+    "fumaca_escapamento": 0,
+    "cheiros_incomuns": 0,
+    "bateria_fraca": 1,
+    "ar_nao_gelando": 0,
+    "vazamento": 0,
+    "fumaca_capo": 0,
+    "perda_potencia": 1,
+    "problemas_eletricos": 0,
+    "motor_falhando": 1,
+    "volante_desalinhado": 0,
+    "nivel_oleo": 0
+}
+

@@ -1,0 +1,9 @@
+Membros:
+
+Giovanna Revito Roz - RM558981
+Kaian Gustavo de Oliveira Nascimento - RM558986
+Lucas Kenji Kikuchi - RM554424
+
+OBS.: não dar DELETE em nenhum serviço presente no banco, apenas em serviços criados
+
+link do vídeo: https://youtu.be/u3U_4sKh3nA?si=XjzQxyMtKUed0Ym-

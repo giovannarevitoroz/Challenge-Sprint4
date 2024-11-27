@@ -1,0 +1,89 @@
+
+@media (min-width: 320px) and (max-width: 740px) {
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2vw;
+      background-color: #18B7E4;
+    }
+    .titulo {
+        font-size: 3vw;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        color: white;
+    }
+    .logoutButton {
+      background-color: #ff4d4f;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .cadastrar{
+        font-size: 3vw;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .cadastrar:hover{
+        color: lightgray;
+    }
+    .logoutImage{
+        width: 6vw;
+        height: 6vw;
+        margin-right: 2vw;
+        cursor: pointer;
+    }
+  }
+  @media (min-width: 741px) {
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2vw;
+      background-color: #18B7E4;
+    }
+    .titulo {
+        font-size: 3vw;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        color: white;
+    }
+    .logoutButton {
+      background-color: #ff4d4f;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .cadastrar{
+        font-size: 3vw;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .cadastrar:hover{
+        color: lightgray;
+    }
+    .logoutImage{
+        width: 6vw;
+        height: 6vw;
+        margin-right: 2vw;
+        cursor: pointer;
+    }
+  }
+  

@@ -1,0 +1,235 @@
+.titulo {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 8vw;
+  color: black;
+  text-align: center;
+  margin-top: 15%;
+}
+.imagem {
+  height: 25vw;
+  width: 25vw;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.tituloDireita {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 1vw;
+  color: black;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: -22vw;
+}
+.paragrafoRmDireita {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2vw;
+  color: black;
+  margin-top: 1.5vw;
+  margin-left: 60%;
+}
+.paragrafoDireito {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.6vw;
+  text-align: center;
+  color: black;
+  margin-top: 2vw;
+  width: 39%;
+  margin-left: 45%;
+}
+.tituloEsquerda {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 4vw;
+  color: black;
+  text-align: center;
+  margin-left: -45%;
+  margin-top: 15vw;
+}
+.paragrafoRmEsquerdo {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2vw;
+  color: black;
+  margin-top: 1.5vw;
+  margin-left: 22%;
+}
+.paragrafoEsquerdo {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.6vw;
+  text-align: center;
+  color: black;
+  margin-top: 2vw;
+  width: 39%;
+  margin-left: 8%;
+}
+.imagem2 {
+  height: 27vw;
+  width: 27vw;
+  margin-left: 60%;
+  margin-top: -22%;
+}
+.menuContainer {
+  display: block;
+}
+@media screen and (max-width: 740px) {
+  .titulo,
+  .tituloDireita,
+  .tituloEsquerda {
+    font-size: 8vw;
+  }
+  .tituloDireita {
+    font-size: 4vw;
+    margin-left: 30%;
+  }
+  .tituloEsquerda {
+    font-size: 4vw;
+  }
+  .paragrafoRmDireita,
+  .paragrafoRmEsquerdo,
+  .paragrafoDireito,
+  .paragrafoEsquerdo {
+    font-size: 2vw;
+  }
+  .imagem {
+    height: 25vw;
+    width: 25vw;
+  }
+  .voltando{
+    display: none;
+  }
+}
+@media (min-width: 741px) and (max-width: 1280px) {
+  .menuContainer{
+    display: none;
+  }
+  .titulo,
+  .tituloDireita,
+  .tituloEsquerda {
+    font-size: 8vw;
+  }
+  .tituloDireita,
+  .tituloEsquerda {
+    margin-left: -45%;
+  }
+  .paragrafoRmDireita,
+  .paragrafoRmEsquerdo,
+  .paragrafoDireito,
+  .paragrafoEsquerdo {
+    font-size: 2vw;
+  }
+  .imagem,
+  .imagem2 {
+    height: 25vw;
+    width: 25vw;
+  }
+  .tituloEsquerda {
+    font-size: 4vw;
+  }
+  .tituloDireita {
+    font-size: 4vw;
+    margin-left: 35%;
+  }
+  .voltando{
+    display: block;
+    background-color: #18B7E4;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 2vw 2vw 0;
+  }
+  .voltando:hover{
+    cursor: pointer;
+    background-color: #006581;
+  }
+  .voltarbotao{
+    text-decoration: none;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+  .voltarbotao:hover{
+    cursor: pointer;
+    color: white;
+  }
+}
+@media (min-width: 1281px) {
+  .titulo,
+  .tituloDireita,
+  .tituloEsquerda {
+    font-size: 8vw;
+  }
+  .tituloDireita,
+  .tituloEsquerda {
+    margin-left: -45%;
+  }
+  .paragrafoRmDireita,
+  .paragrafoRmEsquerdo,
+  .paragrafoDireito,
+  .paragrafoEsquerdo {
+    font-size: 2vw;
+  }
+  .imagem,
+  .imagem2 {
+    height: 25vw;
+    width: 25vw;
+  }
+  .tituloEsquerda {
+    font-size: 4vw;
+  }
+  .tituloDireita {
+    font-size: 4vw;
+    margin-left: 35%;
+  }
+  .voltando{
+    display: block;
+    background-color: #18B7E4;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 2vw 2vw 0;
+  }
+  .voltando:hover{
+    cursor: pointer;
+    background-color: #006581;
+  }
+  .voltarbotao{
+    text-decoration: none;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+  .voltarbotao:hover{
+    cursor: pointer;
+    color: white;
+  }
+}
